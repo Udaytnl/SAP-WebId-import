@@ -14,7 +14,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller",
 			//	alert(oArgs);
 			var documentno = oArgs["DOCNO"];
 			alert("Detail  " + documentno);
-			
+			//These changes should now reflect in the Git repository after the Push
 			this.byId("oh").setTitle(documentno);
 			
 			
